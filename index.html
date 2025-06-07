@@ -25,54 +25,60 @@
 <body class="font-['Montserrat']">
   <main>
     <!-- Hero Start -->
-    <section id="hero" class="bg-linear-to-r from-[#FFFFFF] to-[#025ADF21] py-10 md:pt-10 md:pb-20">
-      <div class="container mx-auto border border-gray-300 rounded-xl">
-        <div class="px-4 md:px-20 py-10 md:py-15">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div class="content-center">
-              <p class="font-semibold text-[10px] text-[#D46E06] px-3 py-1 rounded-full bg-orange-100 w-fit uppercase" id="hero-title">Better India’s Tech</p>
-              <h1 class="mt-10 font-bold text-5xl" id="hero-headline"><span class="text-[#007DFE] font-semibold">Powering a Better</span> India with Frontier Tech</h1>
-              <p class="font-normal text-sm mt-5 text-[#3A3A3A] mb-10 md:w-3/5" id="hero-description">Discover stories, impact, and innovations | transforming India through technology.</p>
-              <div class="flex gap-5">
-                <a href="#" class="text-white font-bold text-[10px] bg-linear-to-r from-[#007DFE] to-[#004B98] px-3 md:px-5 py-2 md:py-3 rounded-full" id="hero-link-1">Explore Frontier Tech Stories</a>
-                <a href="#" class="text-black font-bold text-[10px] bg-transparent border border-gray-300 px-3 md:px-5 py-2 md:py-3 rounded-full" id="hero-link-2">Government Initiatives</a>
-              </div>
-            </div>
-            <div class="content-center">
-              <div id="indicators-carousel-hero" class="relative w-full" data-carousel="static">
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  </div>
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  </div>
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  </div>
+    <section id="hero" class="bg-[url('assets/images/hero-bg.png')] bg-contain bg-repeat-round md:pt-10 md:pb-20">
+      <div class="container mx-auto">
+        <div class="md:bg-[url('assets/images/hero-container.png')] md:bg-contain md:bg-repeat-round">
+          <div class="px-4 md:px-20 py-10 md:py-15">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-5">
+              <div class="content-center">
+                <h1 class="mt-10 font-extrabold text-4xl/tight md:text-5xl/tight text-white" id="hero-headline"><span class="text-[#007DFE]">National Repository</span> of Frontier Tech for a Viksit Bharat!</h1>
+                <div class="mt-6 md:mt-10 flex items-center gap-3">
+                  <p class="font-semibold text-[10px] text-white px-2 py-1 rounded-sm bg-[#FFA64D45] w-fit uppercase" id="hero-tag-1">Human centric</p>
+                  <p class="font-semibold text-[10px] text-white px-2 py-1 rounded-sm bg-[#FFA64D45] w-fit uppercase" id="hero-tag-2">planet friendly</p>
+                  <p class="font-semibold text-[10px] text-white px-2 py-1 rounded-sm bg-[#FFA64D45] w-fit uppercase" id="hero-tag-3">Self reliant</p>
                 </div>
-                <div class="flex justify-end items-center mt-10 gap-5">
-                  <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="hero-prev" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
-                      <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                      </svg>
-                      <span class="sr-only">Previous</span>
-                    </span>
-                  </button>
-                  <div class="space-x-3 rtl:space-x-reverse">
-                    <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                    <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                    <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                <div class="flex gap-5 mt-8 md:mt-15">
+                  <a href="#" class="text-white font-bold text-[10px] bg-linear-to-r from-[#007DFE] to-[#004B98] px-3 md:px-5 py-2 md:py-3 rounded-md" id="hero-link-1">Explore Frontier Tech Stories</a>
+                  <a href="#" class="text-white font-bold text-[10px] bg-transparent border border-white px-3 md:px-5 py-2 md:py-3 rounded-md" id="hero-link-2">Government Initiatives</a>
+                </div>
+              </div>
+              <div class="content-center">
+                <div id="indicators-carousel-hero" class="relative w-full" data-carousel="static">
+                  <div class="relative h-56 overflow-hidden rounded-lg md:h-96 md:mb-16">
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                      <img src="assets/images/hero-slider-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                      <video src="assets/videos/stories-video-1.mp4" playsinline id="customVideo" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"></video>
+                      <button id="playPauseBtn" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-opacity-50 text-white rounded-full text-lg z-10 cursor-pointer"><i class="fa-solid fa-circle-play text-5xl"></i></button>
+                    </div>
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                      <img src="assets/images/hero-slider-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
                   </div>
-                  <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="hero-next" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
-                      <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                      </svg>
-                      <span class="sr-only">Next</span>
-                    </span>
-                  </button>
+                  <div class="md:absolute flex justify-center md:justify-end items-center mt-12 gap-5 md:right-64">
+                    <!-- <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="hero-prev" data-carousel-prev>
+                      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                      </span>
+                    </button> -->
+                    <div class="space-x-3 rtl:space-x-reverse">
+                      <button type="button" class="w-3 h-3 rounded-full !bg-[#F4F4F4] cursor-pointer" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                      <button type="button" class="w-3 h-3 rounded-full !bg-[#F4F4F4] cursor-pointer" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                      <button type="button" class="w-3 h-3 rounded-full !bg-[#F4F4F4] cursor-pointer" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                    </div>
+                    <!-- <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="hero-next" data-carousel-next>
+                      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                      </span>
+                    </button> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -82,53 +88,97 @@
     </section>
     <!-- Hero End -->
 
-    <!-- Agriculture Start -->
-    <section id="agriculture">
-      <div class="bg-linear-to-r from-[#007DFE] to-[#004B98]">
-        <div class="container mx-auto md:px-40 py-10">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20">
-            <div class="text-center">
-              <i class="fa-solid fa-feather-pointed text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-r from-[#007DFE] to-[#004B98]"></i>
+    <!-- Sectors Start -->
+    <section id="sectors">
+      <div class="bg-[url(assets/images/sector-bg.png)]">
+        <div class="container mx-auto px-4 md:px-0 py-10 md:w-[75%]">
+          <div class="text-center">
+            <h2 class="text-2xl md:text-[40px] text-white font-semibold md:mt-10 md:w-8/12 text-center mx-auto">Our Sectors</h2>
+            <p class="text-white font-medium mt-5 md:mt-10 md:w-6/12 text-center mx-auto">Explore multisectoral deep dives, actionable policy frameworks, sector-specific strategies, and scalable solutions designed to harness frontier technologies built with experts -- for everyone.</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-20 mt-10 md:mt-20">
+            <div class="flex flex-col items-center">
+              <i class="fa-solid fa-feather-pointed text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
               <h1 class="text-[#FEC302] text-2xl font-bold mb-4">Agriculture</h1>
-              <p class="text-white text-sm">It is a long established fact that a reader will be distracted by the readable content of a page</p>
+              <img src="assets/images/top-right-arrow.png" class="w-10" alt="">
             </div>
-            <div class="text-center">
-              <i class="fa-solid fa-plus text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-r from-[#007DFE] to-[#004B98]"></i>
+            <div class="flex flex-col items-center">
+              <i class="fa-solid fa-plus text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
               <h1 class="text-[#FEC302] text-2xl font-bold mb-4">Health</h1>
-              <p class="text-white text-sm">It is a long established fact that a reader will be distracted by the readable content of a page</p>
+              <img src="assets/images/top-right-arrow.png" class="w-10" alt="">
             </div>
-            <div class="text-center">
-              <i class="fa-solid fa-globe text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-r from-[#007DFE] to-[#004B98]"></i>
-              <h1 class="text-[#FEC302] text-2xl font-bold mb-4">Environment</h1>
-              <p class="text-white text-sm">It is a long established fact that a reader will be distracted by the readable content of a page</p>
+            <div class="flex flex-col items-center">
+              <i class="fa-solid fa-book-open text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <h1 class="text-[#FEC302] text-2xl font-bold mb-4">Education</h1>
+              <img src="assets/images/top-right-arrow.png" class="w-10" alt="">
+            </div>
+            <div class="flex flex-col items-center">
+              <i class="fa-solid fa-rocket text-2xl p-4 mb-4 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <h1 class="text-[#FEC302] text-2xl font-bold mb-4 text-center">Space, Defence & Security</h1>
+              <img src="assets/images/top-right-arrow.png" class="w-10" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Agriculture End -->
+    <!-- Sectors End -->
 
     <!-- Impact Start -->
     <section id="impact" class="bg-[url('assets/images/impact-bg.png')] bg-no-repeat bg-cover">
       <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-36">
-          <div class="md:col-span-1">
-            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">Impact <span class="font-bold">Highlights</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-10">
+          <div class="md:col-span-2">
+            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">From Innovation to <span class="font-bold">Scale with Frontier Tech</span></h2>
           </div>
           <div class="md:col-span-3 content-center">
-            <p class="text-[#0E165D]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+            <p class="text-[#0E165D]">Dive into India’s strategic innovation ecosystem—where thousand of ideas mature into infinite possibilities creating impact through robust policy design, cross-sector insights, and tech-forward implementation models</p>
           </div>
         </div>
         <hr class="mt-10">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-10">
-          <div class="rounded-xl px-3 pb-4 text-center border-1 border-gray-200 bg-white relative hover:bg-linear-to-r from-[#007DFE] to-[#004B98] hover:text-white transition-all duration-500">
-            <div class="py-[6px] bg-[#F4C84C] rounded-b-3xl w-[70%] absolute top-0 left-1/2 transform -translate-x-1/2"></div>
+          <div class="px-3 pb-4 text-center bg-[url('assets/images/innovation-card-container.png')] bg-contain bg-repeat-round hover:bg-[url('assets/images/innovation-card-container-hover.png')] hover:text-white">
             <h3 class="font-bold text-[#007DFE] text-[40px] mt-15">12 States</h3>
             <h4 class="font-medium mt-4 text-[22px]">using AI in there Health Sectors</h4>
-            <p class="text-sm font-light mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <p class="text-sm font-light mt-4">It is a long established fact that a reader will be distracted.</p>
             <hr class="mt-10">
             <a href="#">
-              <div class="flex justify-between items-center mt-4">
+              <div class="flex justify-between items-center my-4">
+                <p class="text-sm font-medium">Show Related Story</p>
+                <i class="fa-solid fa-arrow-right p-2 rounded-full text-black bg-transparent border-1 border-black"></i>
+              </div>
+            </a>
+          </div>
+          <div class="px-3 pb-4 text-center bg-[url('assets/images/innovation-card-container.png')] bg-contain bg-repeat-round hover:bg-[url('assets/images/innovation-card-container-hover.png')] hover:text-white">
+            <h3 class="font-bold text-[#007DFE] text-[40px] mt-15">75,000+</h3>
+            <h4 class="font-medium mt-4 text-[22px]">Farmers using IoT tools</h4>
+            <p class="text-sm font-light mt-4">It is a long established fact that a reader will be distracted.</p>
+            <hr class="mt-10">
+            <a href="#">
+              <div class="flex justify-between items-center my-4">
+                <p class="text-sm font-medium">Show Related Story</p>
+                <i class="fa-solid fa-arrow-right p-2 rounded-full text-black bg-transparent border-1 border-black"></i>
+              </div>
+            </a>
+          </div>
+          <div class="px-3 pb-4 text-center bg-[url('assets/images/innovation-card-container.png')] bg-contain bg-repeat-round hover:bg-[url('assets/images/innovation-card-container-hover.png')] hover:text-white">
+            <h3 class="font-bold text-[#007DFE] text-[40px] mt-15">263+</h3>
+            <h4 class="font-medium mt-4 text-[22px]">Projects in Renewable Energy</h4>
+            <p class="text-sm font-light mt-4">It is a long established fact that a reader will be distracted.</p>
+            <hr class="mt-10">
+            <a href="#">
+              <div class="flex justify-between items-center my-4">
+                <p class="text-sm font-medium">Show Related Story</p>
+                <i class="fa-solid fa-arrow-right p-2 rounded-full text-black bg-transparent border-1 border-black"></i>
+              </div>
+            </a>
+          </div>
+          <div class="px-3 pb-4 text-center bg-[url('assets/images/innovation-card-container.png')] bg-contain bg-repeat-round hover:bg-[url('assets/images/innovation-card-container-hover.png')] hover:text-white">
+            <h3 class="font-bold text-[#007DFE] text-[40px] mt-15">5,000+</h3>
+            <h4 class="font-medium mt-4 text-[22px]">Drone deployments in Safety</h4>
+            <p class="text-sm font-light mt-4">It is a long established fact that a reader will be distracted.</p>
+            <hr class="mt-10">
+            <a href="#">
+              <div class="flex justify-between items-center my-4">
                 <p class="text-sm font-medium">Show Related Story</p>
                 <i class="fa-solid fa-arrow-right p-2 rounded-full text-black bg-transparent border-1 border-black"></i>
               </div>
@@ -140,73 +190,53 @@
     <!-- Impact End -->
 
     <!-- Solutions Start -->
-    <section id="solutions">
-      <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-16 content-center">
-          <div class="col-span-1">
-            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">States Achieved<br> <span class="font-bold">Solutions</span></h2>
-          </div>
-          <div class="col-span-2 content-center">
-            <p class="text-[#0E165D]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-          </div>
-        </div>
-        <hr class="mt-10">
-      </div>
-      <div class="container mx-auto bg-[url('assets/images/solution-bg.png')] rounded-xl bg-no-repeat bg-cover">
-        <div class="px-4 md:px-20 py-10 md:py-15">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div class="col-span-1">
-              <div class="flex gap-5 px-3 py-2 border border-gray-300 rounded-full w-40">
-                <img src="assets/images/fi-sr-poker-chip.png" alt="icon">
-                <p class="flex flex-col justify-center font-bold">
-                  <span class="text-[10px]">48</span>
-                  <span class="text-[8px] font-medium">Frontier Stories</span>
-                </p>
-              </div>
-              <div class="mt-10 flex items-center gap-10">
-                <h3 class="text-[40px] font-semibold" id="solution-title">Punjab</h3>
-                <img src="assets/images/punjab-map.png" id="solution-image" alt="">
-              </div>
-              <h4 class="mt-10 font-semibold text-2xl" id="solution-headline">Farmers using Drones in Seeding and growing their business by <span class="text-[#E98357]">60%</span></h4>
-              <p class="font-normal text-sm mt-4 text-[#3A3A3A] mb-10" id="solution-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-              <a href="#" class="text-white font-bold text-[10px] bg-linear-to-r from-[#007DFE] to-[#004B98] px-10 py-3 rounded-xl" id="solution-link">Know More Solutions</a>
+    <section id="solutions" class="bg-[url('assets/images/state-slider-bg.png')] bg-no-repeat bg-cover">
+      <div class="container mx-auto px-4 md:px-20 py-10 md:pt-15 md:pb-25">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="content-center">
+            <div class="md:mt-10 flex items-center gap-10">
+              <h3 class="text-3xl md:text-[40px] text-white font-semibold" id="solution-title">Punjab</h3>
+              <img src="assets/images/punjab-map.png" class="w-10 md:w-20" id="solution-image" alt="">
             </div>
-            <div class="col-span-2 content-center md:pl-20 md:pt-15">
-              <div id="indicators-carousel-solution" class="relative w-full" data-carousel="static">
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  </div>
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  </div>
-                  <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  </div>
+            <h4 class="mt-5 md:mt-10 font-semibold text-white text-2xl/tight md:text-5xl/tight" id="solution-headline"><span class="bg-gradient-to-r from-[#FEC302] to-[#FF634E] text-transparent bg-clip-text">Did you know</span> that Drones are changing the way of Farming in Punjab.</h4>
+            <p class="font-normal text-white text-sm mt-5 md:mt-10 mb-10 md:mb-20 w-[90%] md:w-[80%]" id="solution-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <a href="#" class="text-black font-bold text-sm bg-[#F4C84CF7] px-10 py-3 rounded-xl" id="solution-link">Know More Solutions</a>
+          </div>
+          <div class="content-center">
+            <div id="indicators-carousel-solution" class="relative w-full" data-carousel="static">
+              <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
-                <div class="flex justify-end items-center mt-10 gap-5">
-                  <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="solution-prev" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
-                      <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                      </svg>
-                      <span class="sr-only">Previous</span>
-                    </span>
-                  </button>
-                  <div class="space-x-3 rtl:space-x-reverse">
-                    <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                    <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                    <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                  </div>
-                  <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="solution-next" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
-                      <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                      </svg>
-                      <span class="sr-only">Next</span>
-                    </span>
-                  </button>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="assets/images/slider-img-1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+              </div>
+              <div class="flex justify-center items-center gap-5">
+                <!-- <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="solution-prev" data-carousel-prev>
+                  <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
+                    <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                  </span>
+                </button> -->
+                <div class="space-x-3 rtl:space-x-reverse">
+                  <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                  <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                  <button type="button" class="w-3 h-3 rounded-full cursor-pointer" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                </div>
+                <!-- <button type="button" class="px-4 cursor-pointer group focus:outline-none" id="solution-next" data-carousel-next>
+                  <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black">
+                    <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                    </svg>
+                    <span class="sr-only">Next</span>
+                  </span>
+                </button> -->
               </div>
             </div>
           </div>
@@ -218,12 +248,12 @@
     <!-- Stories Start -->
     <section id="stories">
       <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-16 content-center">
-          <div class="col-span-1">
-            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">States Achieved<br> <span class="font-bold">Solutions</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-16">
+          <div class="content-center">
+            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">Engage, Explore in an AI<br> <span class="font-bold">powered Experience for Frontier Tech Solutions</span></h2>
           </div>
-          <div class="col-span-2 content-center">
-            <p class="text-[#0E165D]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+          <div class="content-center">
+            <p class="text-[#0E165D]">Access a curated hub of AI-powered tools, tech breakthroughs, and multi-sectoral innovations built to solve real-world challenges locally and at scale</p>
           </div>
         </div>
         <div class="mt-10 md:mt-15">
@@ -258,81 +288,352 @@
           </div>
         </div>
         <hr class="mt-10">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 md:mt-20">
-          <div>
-            <div class="rounded-xl border-1 border-gray-200 bg-white relative">
-              <p class="absolute top-5 left-5 text-xs font-semibold text-white uppercase">New</p>
-              <video src="assets/videos/stories-video-1.mp4" controls class="rounded-xl w-full object-cover overflow-hidden"></video>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-5 mt-10 md:mt-20">
+          <div class="md:col-span-2">
+            <div class="bg-[url('assets/images/story-card-1-bg.png')] bg-cover bg-no-repeat px-6 pt-10 pb-4">
+              <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+                  <p class="text-sm font-medium text-white">Space, Defence and Security</p>
+                </div>
+                <img src="assets/images/play-btn.png" class="w-8 md:w-10 cursor-pointer" alt="play btn">
+              </div>
+              <div class="mt-20 mb-5">
+                <h3 class="text-lg font-semibold text-white">Agnikul’s 3D-Printed Rocket Redefines India’s Space Ambitions</h3>
+                <p class="text-sm font-normal text-white mt-4 mb-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <a href="" class="text-white font-semibold">Read More</a>
+              </div>
             </div>
-            <div class="px-4 py-6 mt-2 rounded-xl border-1 border-gray-200 bg-white story-content-div">
-              <div class="flex items-center gap-2">
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">Drones</p>
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">Agriculture</p>
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">High Impact</p>
-              </div>
-              <div class="mt-4">
-                <a href="#"><h3 class="text-[22px] font-bold text-[#0E165D]">Farmers using IoT tools and helping agriculture to grow by 48%</h3></a>
-              </div>
+          </div>
+          <div class="bg-[#1A97F6] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">How IIT Kanpur’s AI-powered Drones Can Bolster Border Security and Disaster Response</h3>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#1E1E1E] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Weaving AI and IoT into Sericulture, ReshaMandi Helps 5500 Farmers Multiply Their Income</h3>
+              </a>
             </div>
           </div>
 
-          <div class="rounded-xl border-1 border-gray-200 bg-white relative">
-            <p class="absolute top-5 left-5 text-xs font-semibold text-white uppercase">Latest</p>
-            <img src="assets/images/stories-img-1.png" alt="story-img" class="w-full h-[178] object-cover overflow-hidden rounded-t-xl">
-            <div class="px-4 py-6 story-content-div">
-              <div class="flex items-center gap-2">
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">Drones</p>
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">Agriculture</p>
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">High Impact</p>
-              </div>
-              <div class="mt-4">
-                <h3 class="text-[22px] font-bold text-[#0E165D] story-title">Farmers using IoT tools</h3>
-                <p class="text-sm mt-2 text-[#3A3A3A] font-normal mb-6 story-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <a href="#" class="text-[#0E165D] font-semibold">Read More</a>
-              </div>
+          <div class="bg-[#1A97F6] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-plus text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Healthcare</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Diagnosing TB in Seconds: DeepTek’s AI Could Transform Frontline Healthcare</h3>
+              </a>
             </div>
           </div>
-          <div class="rounded-xl border-1 border-gray-200 bg-white relative">
-            <p class="absolute top-5 left-5 text-xs font-semibold text-white uppercase">Featured</p>
-            <img src="assets/images/stories-img-1.png" alt="story-img" class="w-full h-[178] object-cover overflow-hidden rounded-t-xl">
-            <div class="px-4 py-6 story-content-div">
+          <div class="bg-[#1E1E1E] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-book-open text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Education</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Making Learning Visible — AI-powered Platform Helps Children with Visual Processing Disorders Thrive in Classrooms</h3>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#1E1E1E] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-plus text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Healthcare</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Precision at One-Third the Cost: How India’s First Indigenous Surgical Robot is Democratizing Healthcare</h3>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#1A97F6] px-6 py-6">
+            <div class="flex justify-between items-center">
               <div class="flex items-center gap-2">
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">Drones</p>
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">Agriculture</p>
-                <p class="px-3 py-1 bg-[#D7E8FA] text-[#0E165D] font-medium text-[10px] rounded-md">High Impact</p>
+                <i class="fa-solid fa-plus text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+                <p class="text-sm font-medium text-white">Healthcare</p>
               </div>
-              <div class="mt-4">
-                <h3 class="text-[22px] font-bold text-[#0E165D] story-title">Farmers using IoT tools</h3>
-                <p class="text-sm mt-2 text-[#3A3A3A] font-normal mb-6 story-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <a href="#" class="text-[#0E165D] font-semibold">Read More</a>
+              <img src="assets/images/play-btn.png" class="w-8 md:w-10 cursor-pointer" alt="play btn">
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Smart ICUs, Real-Time Care: A Scalable Model Bringing Remote ICU Expertise to Hospitals Nationwide</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-[#1E1E1E] px-6 py-6">
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-plus text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+                <p class="text-sm font-medium text-white">Healthcare</p>
               </div>
+              <img src="assets/images/play-btn.png" class="w-8 md:w-10 cursor-pointer" alt="play btn">
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Cognitive Care at Your Fingertips: Kerala Startup Redefines Brain Health for India's Ageing Population</h3>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#1A97F6] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">See, Select, Spray: Niqo Robotics Cuts Pesticide Use with AI-Powered Farming</h3>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#1E1E1E] px-6 py-6">
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+                <p class="text-sm font-medium text-white">Agriculture</p>
+              </div>
+              <img src="assets/images/play-btn.png" class="w-8 md:w-10 cursor-pointer" alt="play btn">
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Digital Roots: Gujarat’s ICT Push that Empowered 14 Lakh Farmers</h3>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#1E1E1E] px-6 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-plus text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Healthcare</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-lg font-semibold text-white">Cough, Detect, Diagnose: How Swaasa is Using AI to Identify Lung Diseases in Seconds</h3>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="mt-8 md:mt-16 text-end">
-          <a href="#" class="text-white text-xs font-bold px-10 py-4 rounded-full bg-black">View All Stories</a>
+          <a href="#" class="text-[#0E165D] text-xs font-bold px-10 py-4 rounded-md bg-transparent border border-[#0E165D]">View All Stories</a>
         </div>
 
       </div>
     </section>
     <!-- Stories End -->
 
+    <!-- Stories Start -->
+    <!-- <section id="stories">
+      <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
+        <div class="text-center">
+          <div class="flex justify-center items-center gap-4">
+            <hr class="w-1/12">
+            <p class="font-medium text-black">Stories</p>
+            <hr class="w-1/12">
+          </div>
+          <h2 class="text-2xl md:text-5xl/tight font-semibold mt-5 md:mt-10 md:w-8/12 text-center mx-auto">Building Bharat with Frontier Technology, a Statewise Endeavor</h2>
+          <p class="text-lg font-normal mt-5 md:mt-10 md:w-6/12 text-center mx-auto">Uncover regionally rooted, sectorally scalable models that showcase how frontier tech is driving innovation across India’s diverse development landscape!</p>
+        </div>
+      </div>
+      <div class="w-full bg-[url('assets/images/stories-dropdown-bg.png')] bg-no-repeat bg-cover">
+        <div class="container mx-auto px-4 md:px-20 py-10 md:py-10">
+          <div class="flex flex-col md:flex-row justify-between items-center gap-5 md:gap-16">       
+            <form class="w-full flex justify-between md:justify-normal items-center md:gap-4">
+              <label for="technologies" class="font-semibold text-black">Technology:</label>
+              <select id="technologies" class="border border-gray-300 text-black bg-white text-sm rounded-lg w-50 p-2.5">
+                <option>All Technology</option>
+                <option>IOT</option>
+                <option>France</option>
+                <option>Germany</option>
+              </select>
+            </form>
+            <form class="w-full flex justify-between md:justify-normal items-center md:gap-4">
+              <label for="sectors" class="font-semibold text-black">Sector:</label>
+              <select id="sectors" class="border border-gray-300 text-black bg-white text-sm rounded-lg w-50 p-2.5">
+                <option>All Sector</option>
+                <option>Agriculture</option>
+                <option>France</option>
+                <option>Germany</option>
+              </select>
+            </form>
+            <form class="w-full flex justify-between md:justify-normal items-center md:gap-4">
+              <label for="stories" class="font-semibold text-black">Story Type:</label>
+              <select id="stories" class="border border-gray-300 text-black bg-white text-sm rounded-lg w-50 p-2.5">
+                <option>All Stories Type</option>
+                <option>IOT</option>
+                <option>France</option>
+                <option>Germany</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+          <div class="md:col-span-2">
+            <div class="bg-[#1E1E1E] px-8 py-6">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+                <p class="text-sm font-medium text-white">Agriculture</p>
+              </div>
+              <div class="mt-20 mb-5">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding</h3>
+                <p class="text-sm font-normal text-white mt-4 mb-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <a href="" class="text-white font-semibold">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1A97F6] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1E1E1E] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-3xl bg-[#1A97F6] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1E1E1E] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1E1E1E] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1A97F6] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="rounded-3xl bg-[#1E1E1E] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1A97F6] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1E1E1E] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-3xl bg-[#1E1E1E] px-8 py-6">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-feather-pointed text-base p-2 rounded-full text-white bg-linear-to-b from-[#007DFE] to-[#004B98]"></i>
+              <p class="text-sm font-medium text-white">Agriculture</p>
+            </div>
+            <div class="mt-20 mb-5">
+              <a href="#">
+                <h3 class="text-xl font-bold text-white">Farmers using Drones in Seeding and growing their business by 60%.</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 md:mt-16 text-end">
+          <a href="#" class="text-black text-xs font-bold px-10 py-4 rounded-2xl bg-transparent border border-black">View All Stories</a>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- Stories End -->
+
     <!-- Map Start -->
     <section id="map" class="bg-[url('assets/images/map-bg.png')] bg-no-repeat bg-cover">
       <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 content-center">
-          <div class="md:col-span-1">
-            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">Where Tech Is<br> <span class="font-bold">Creating Change</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-6 content-center">
+          <div class="md:col-span-2">
+            <h2 class="text-3xl md:text-[40px] font-light text-[#0E165D]">Building Bharat with Frontier Technology <span class="font-bold">a Statewise Endeavor</span></h2>
           </div>
-          <div class="md:col-span-2 content-center">
-            <p class="text-[#0E165D]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+          <div class="md:col-span-3 content-center md:pl-20">
+            <p class="text-[#0E165D]">Uncover regionally rooted, sectorally scalable models that showcase how frontier tech is driving innovation across India’s diverse development landscape!</p>
           </div>
         </div>
-        <div class="mt-10 flex justify-end">
+        <div class="mt-10 md:mt-15">
           <form class="flex items-center gap-5">
             <label for="states" class="font-semibold text-black">Select State:</label>
-            <select id="states" class="border border-gray-600 text-black text-sm rounded-lg p-2.5 w-40">
+            <select id="states" class="border border-gray-600 text-black text-sm rounded-lg p-2.5 w-40 md:w-60">
               <option>India</option>
               <option>Tamil Nadu</option>
               <option>Karnataka</option>
@@ -344,7 +645,7 @@
         <div class="mt-10"></div>
       </div>
     </section>
-    <!-- Impact End -->
+    <!-- Map End -->
 
     <!-- Partnerships Start -->
     <section id="partnerships">
@@ -358,10 +659,10 @@
           </div>
         </div>
         <hr class="mt-10">
-        <div class="text-end mt-6">
+        <div class="text-end my-10">
           <p class="font-bold text-lg">See All Programs & Partnerships</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div class="rounded-xl px-5 py-8 bg-[#7D7DF6F5]">
             <div class="flex justify-between items-center">
               <p class="text-sm font-medium text-white">Initiative</p>
@@ -369,7 +670,7 @@
             </div>
             <h3 class="font-bold mt-8 text-white">Digital Kranti Yojana</h3>
             <p class="text-sm font-normal mt-3 mb-8 text-white">Drones + IoT in precision farming across 10 states in partnership with ICAR.</p>
-            <a href="#" class="font-semibold text-sm text-[#4D53F6] bg-white px-4 py-2 rounded-full">View Initiative</a>
+            <a href="#" class="font-semibold text-sm text-[#4D53F6] bg-white px-4 py-2 rounded-md">View Initiative</a>
           </div>
 
           <div class="rounded-xl px-5 py-8 bg-[#4972E4F5]">
@@ -379,7 +680,7 @@
             </div>
             <h3 class="font-bold mt-8 text-white">Krishi Tech AI</h3>
             <p class="text-sm font-normal mt-3 mb-8 text-white">Developed voice- enabled AI platform for farmers.</p>
-            <a href="#" class="font-semibold text-sm text-[#083FDA] bg-white px-4 py-2 rounded-full">Read More</a>
+            <a href="#" class="font-semibold text-sm text-[#083FDA] bg-white px-4 py-2 rounded-md">Read More</a>
           </div>
 
           <div class="rounded-xl px-5 py-8 bg-[#75C3FFF5]">
@@ -389,7 +690,7 @@
             </div>
             <h3 class="font-bold mt-8 text-white">Sehat Foundation</h3>
             <p class="text-sm font-normal mt-3 mb-8 text-white">Rural clinics equipped with portable AI scanners</p>
-            <a href="#" class="font-semibold text-sm text-[#1A97F6] bg-white px-4 py-2 rounded-full">Read More</a>
+            <a href="#" class="font-semibold text-sm text-[#1A97F6] bg-white px-4 py-2 rounded-md">Read More</a>
           </div>
 
           <div class="rounded-xl px-5 py-8 bg-[#F4C84CF7]">
@@ -399,7 +700,7 @@
             </div>
             <h3 class="font-bold mt-8 text-white">Digital Kranti Yojana</h3>
             <p class="text-sm font-normal mt-3 mb-8 text-white">Drones + IoT in precision farming across 10 states in partnership with ICAR.</p>
-            <a href="#" class="font-semibold text-sm text-[#D7A61A] bg-white px-4 py-2 rounded-full">View Initiative</a>
+            <a href="#" class="font-semibold text-sm text-[#D7A61A] bg-white px-4 py-2 rounded-md">View Initiative</a>
           </div>
 
           <div class="rounded-xl px-5 py-8 bg-[#4CD7A7F2]">
@@ -409,7 +710,7 @@
             </div>
             <h3 class="font-bold mt-8 text-white">Krishi Tech AI</h3>
             <p class="text-sm font-normal mt-3 mb-8 text-white">Developed voice- enabled AI platform for farmers.</p>
-            <a href="#" class="font-semibold text-sm text-[#1DB66E] bg-white px-4 py-2 rounded-full">Read More</a>
+            <a href="#" class="font-semibold text-sm text-[#1DB66E] bg-white px-4 py-2 rounded-md">Read More</a>
           </div>
 
           <div class="rounded-xl px-5 py-8 bg-[#F5885AF7]">
@@ -419,24 +720,54 @@
             </div>
             <h3 class="font-bold mt-8 text-white">Sehat Foundation</h3>
             <p class="text-sm font-normal mt-3 mb-8 text-white">Rural clinics equipped with portable AI scanners</p>
-            <a href="#" class="font-semibold text-sm text-[#F66426] bg-white px-4 py-2 rounded-full">Read More</a>
+            <a href="#" class="font-semibold text-sm text-[#F66426] bg-white px-4 py-2 rounded-md">Read More</a>
           </div>
         </div>
       </div>
     </section>
     <!-- Partnerships End -->
 
+    <!-- Ideas Start -->
+    <section id="ideas" class="bg-[url('assets/images/map-bg.png')] bg-no-repeat bg-cover">
+      <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
+        <div class="flex flex-col justify-between gap-5 md:gap-10">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-light text-[#0E165D] md:w-[50%]">Empowering Young Innovators <span class="font-bold">Join and Contribute to Frontier Tech Ideas</span></h2>
+          </div>
+          <div>
+            <p class="text-[#0E165D]">Be a part of Youth Campus Innovators Program, and design future-ready solutions that solve India’s most important development needs — a transformative vision for Viksit Bharat.</p>
+          </div>
+        </div>
+        <hr class="mt-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 mt-10 md:mt-15">
+          <div class="content-center bg-[url('assets/images/idea-grid-bg.png')] bg-cover bg-no-repeat rounded-xl pt-10 pb-25 px-6">
+            <p class="text-xl font-medium text-white w-[70%] md:w-[43%] mb-10">A Campus Innovation Program</p>
+            <h3 class="text-white font-bold text-3xl md:text-[40px] mb-40">NITI Yuva TechKriti</h3>
+            <a href="#" class="font-bold text-xs bg-transparent border border-white py-4 px-10 rounded-md text-white">Join Program Now</a>
+          </div>
+          <div class="content-center">
+            <h4 class="text-lg font-bold mb-5">About the Program</h4>
+            <p class="font-normal mb-10">As Bharat steps into a new era of technological leadership, the need to solve complex, real-world challenges is more pressing than ever. How do we ensure nutrition sufficiency for every child? How can we decongest our cities without sacrificing accessibility? What does it take to deliver world-class healthcare in the remotest parts of Bharat?</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <img src="assets/images/idea-img-1.png" class="rounded-xl w-full" alt="Idea img 1">
+              <img src="assets/images/idea-img-2.png" class="rounded-xl w-full" alt="Idea img 2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ideas End -->
+
     <!-- About TBI Start -->
     <section id="about-tbi" class="bg-linear-to-r from-[#007DFE] to-[#004B98]">
-      <div class="container mx-auto px-4 md:px-20 py-10 md:py-20">
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-20">
-          <div class="col-span-3">
-            <h2 class="text-[#FFBC27] text-3xl md:text-5xl font-bold mb-5">About Better India Frontier Tech</h2>
-            <p class="text-white font-normal mb-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-            <a href="#" class="font-bold text-xs bg-white py-3 px-10 rounded-full">Know More</a>
+      <div class="container mx-auto px-4 md:px-20 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="content-center">
+            <h2 class="text-[#FFBC27] text-4xl md:text-[58px]/tight font-bold mb-10 md:mb-20">About NITI Frontier Tech Hub</h2>
+            <a href="#" class="font-bold text-xs bg-white py-4 px-10 rounded-md">Know More</a>
           </div>
-          <div class="col-span-2">
-            <img src="assets/images/stories-img-1.png" class="w-full" alt="map">
+          <div class="content-center">
+            <img src="assets/images/about-logo-img.png" class="w-full" alt="map">
           </div>
         </div>
       </div>
@@ -450,25 +781,40 @@
   <!-- Custom Script -->
   <script src="assets/js/script.js"></script>
 
+  <style>
+    button[aria-current="true"] {
+      background: linear-gradient(90.39deg, #007DFE 0.34%, #004B98 119.78%);
+      width: 1.25rem; /* Tailwind's w-5 ~ 20px */
+      height: 0.75rem; /* Tailwind's h-3 ~ 12px */
+      border-radius: 9999px; /* Fully rounded */
+    }
+  </style>
+
   <!-- Hero Slider Content Start -->
   <script>
     const heroContentData = [
       {
-        title: "Better India’s Tech",
-        headline: "<span class='font-semibold text-[#007DFE]'>Powering a Better</span> India with Frontier Tech",
+        tag1: "Human centric",
+        tag2: "planet friendly",
+        tag3: "Self reliant",
+        headline: "<span class='font-semibold text-[#007DFE]'>National Repository</span> of Frontier Tech for a Viksit Bharat!",
         description: "Discover stories, impact, and innovations | transforming India through technology.",
         link: "#",
         link2: "#"
       },
       {
-        title: "Better India’s Tech",
+        tag1: "Self reliant",
+        tag2: "Human centric",
+        tag3: "planet friendly",
         headline: "<span class='font-semibold text-[#007DFE]'>Better India’s Tech</span> India with Frontier Tech",
         description: "Discover stories, impact, and innovations | transforming India through technology.",
         link: "#",
         link2: "#"
       },
       {
-        title: "Better India’s Tech",
+        tag1: "planet friendly",
+        tag2: "Self reliant",
+        tag3: "Human centric",
         headline: "<span class='font-semibold text-[#007DFE]'>Powering a Better</span> India with Frontier Tech",
         description: "Discover stories, impact, and innovations | transforming India through technology.",
         link: "#",
@@ -477,7 +823,9 @@
     ];
 
     const heroSlider = document.querySelector("#indicators-carousel-hero");
-    const heroTitleEl = document.getElementById("hero-title");
+    const heroTag1El = document.getElementById("hero-tag-1");
+    const heroTag2El = document.getElementById("hero-tag-2");
+    const heroTag3El = document.getElementById("hero-tag-3");
     const heroHeadlineEl = document.getElementById("hero-headline");
     const heroDescriptionEl = document.getElementById("hero-description");
     const heroLinkEl = document.getElementById("hero-link-1");
@@ -485,7 +833,9 @@
 
     const heroUpdateContent = (index) => {
       const data = heroContentData[index];
-      heroTitleEl.textContent = data.title;
+      heroTag1El.textContent = data.tag1;
+      heroTag2El.textContent = data.tag2;
+      heroTag3El.textContent = data.tag3;
       heroHeadlineEl.innerHTML = data.headline;
       heroDescriptionEl.textContent = data.description;
       heroLinkEl.href = data.link;
@@ -529,21 +879,21 @@
       {
         title: "Punjab",
         image: "assets/images/punjab-map.png",
-        headline: "Farmers using Drones in Seeding and growing their business by <span class='text-[#E98357]'>60%</span>",
+        headline: "<span class='bg-gradient-to-r from-[#FEC302] to-[#FF634E] text-transparent bg-clip-text'>Did you know</span> that Drones are changing the way of Farming in Punjab.",
         description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         link: "#"
       },
       {
         title: "Haryana",
         image: "assets/images/punjab-map.png",
-        headline: "Farmers adopting AI-based irrigation, increasing yield by <span class='text-[#E98357]'>40%</span>",
+        headline: "<span class='bg-gradient-to-r from-[#FEC302] to-[#FF634E] text-transparent bg-clip-text'>You know</span> that Drones are changing the way of Farming in Punjab.",
         description: "New irrigation methods have shown better productivity and profitability in the region.",
         link: "#"
       },
       {
         title: "Gujarat",
         image: "assets/images/punjab-map.png",
-        headline: "Fishermen leveraging satellite data to improve catch rate by <span class='text-[#E98357]'>35%</span>",
+        headline: "<span class='bg-gradient-to-r from-[#FEC302] to-[#FF634E] text-transparent bg-clip-text'>Are you know</span> that Drones are changing the way of Farming in Punjab.",
         description: "Digital ocean mapping has revolutionized small-scale fisheries.",
         link: "#"
       }
@@ -595,5 +945,37 @@
     updateContent(0);
   </script>
   <!-- Solution Slider Content End -->
+
+  <!-- Video Pause/Play Script Start -->
+  <script>
+    const video = document.getElementById('customVideo');
+    const playPauseBtn = document.getElementById('playPauseBtn');
+
+    // Initially show button, hide native controls
+    video.controls = false;
+
+    // Toggle play/pause
+    playPauseBtn.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        playPauseBtn.classList.add('hidden');
+      } else {
+        video.pause();
+        playPauseBtn.classList.remove('hidden');
+      }
+    });
+
+    // Show play button again when video is clicked and paused
+    video.addEventListener('click', () => {
+      if (!video.paused) {
+        video.pause();
+        playPauseBtn.classList.remove('hidden');
+      } else {
+        video.play();
+        playPauseBtn.classList.add('hidden');
+      }
+    });
+  </script>
+  <!-- Video Pause/Play Script End -->
 </body>
 </html>
